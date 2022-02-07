@@ -1,2 +1,2 @@
 export const TWITTER_USER_NAME = 'flexstak';
-export const SITE_URL = 'https://www.flexstak.com';
+export const SITE_URL = 'https://flexstak.vercel.app/';
