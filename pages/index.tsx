@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
 import Image from 'next/image';
+
+import { Container } from '@nextui-org/react';
 
 import DefaultLayout from '@/layouts/default';
 
@@ -9,7 +10,7 @@ import styles from '../styles/Home.module.css';
 const Home: NextPage = () => {
   return (
     <DefaultLayout>
-      <div className={styles.container}>
+      <Container lg>
         <main className={styles.main}>
           <h1 className={styles.title}>
             Welcome to <a href="https://nextjs.org">Next.js!</a>
@@ -68,7 +69,7 @@ const Home: NextPage = () => {
             </span>
           </a>
         </footer>
-      </div>
+      </Container>
     </DefaultLayout>
   );
 };
